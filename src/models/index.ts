@@ -1,3 +1,3 @@
-export * from './user.model';
-export * from './offer.model';
-export * from './address.model';
+export * from './_address.model';
+export * from './_offer.model';
+export * from './_user.model';
