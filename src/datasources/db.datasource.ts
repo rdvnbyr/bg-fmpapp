@@ -4,11 +4,11 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'mongodb',
-  url: process.env.MONGODB_URL,
+  url: 'mongodb+srv://rdvnbyr:CtF0AoKcm7qkQJuP@cluster0.e7gk5.mongodb.net/lb4-gen-app?retryWrites=true&w=majority',
   host: 'localhost',
   port: 27017,
   user: 'rdvnbyr',
-  password: process.env.MONGODB_PASSWORD,
+  password: 'CtF0AoKcm7qkQJuP',
   database: 'myFirstDatabase',
   useNewUrlParser: true,
 };
